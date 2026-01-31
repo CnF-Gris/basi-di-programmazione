@@ -5,7 +5,7 @@ Che cosa significa programmare?
 Programmare significa mettere sotto forma di istruzione ciò che si vuole
 fare.
 
-```c++
+```cpp
 void fai_colazione(Persona persona) {
 
     // Piccole costanti
@@ -55,6 +55,9 @@ Cosa fa questa funzione?
 </details>
 
 ## Cosa è un algoritmo
+
+> [!CAUTION]
+> In un codice, un algoritmo va letto dall'alto verso il basso riga per riga.
 
 Un algoritmo non è altri che un modo per esprimere cio che vogliamo passo
 dopo passo in maniera non equivocabile.
