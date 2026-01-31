@@ -93,9 +93,13 @@ nome_variabile
 ```
 
 Prima di poter usare una variabile, solitamente questa deve avere un valore,
-altrimenti si programma si ***arrabbierà*** con noi.
+altrimenti si programma si ***arrabbierà*** con noi, oppure rischiamo di
+stampare valori precedenti.
 
 ### Assegnazione
+
+L'assegnazione inserisce all'interno della RAM il valore che noi vogliamo
+dare alla nostra variabile, mettendo così qualcosa nel contenitore.
 
 ```cpp
 // C Like
@@ -125,3 +129,19 @@ variabile = 10
 #   (preferibile)
 nome_variabile = qualcosa
 ```
+
+Di solito è preferibile assegnare subito un valore di default ad una variabile
+per evitare che possa essere non inizializzata quando la si utilizza la prima
+volta.
+
+Infatti, in `Python`, se provate a far partire
+[questo programma](./../../exercises/assignment/assignment.py), noterete che
+l'interprete vi darà un errore, mentre invece
+l'[analogo programma in c++](./../../exercises/assignment/assignment.cpp)
+vi darà `0` senza lamentarsi, tuttavia il valore `0` è una sorta di recinto e
+non è detto che sia sempre questo valore su tutte le piattaforme e con
+tutti i compilatori.
+
+Quindi, invece di creare una variabile all'inizio di una funzione e dargli
+un valore quando lo si possiede, è sempre meglio dichiararla e inizializzarla
+allo stesso momento, evitando molti bug.
