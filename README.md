@@ -8,6 +8,7 @@
 ## Indice
 
 - Primi passi
+  - [Sistemi Numerici Posizionali](./chapters/first-steps/NUMERIC-SYSTEMS.md)
   - [Algoritmi](./chapters/first-steps/ALGORITHMS.md)
   - [Istruzioni di base](./chapters/first-steps/BASIC-INSTRUCTIONS.md)
   - [Tipi](./chapters/first-steps/TYPES.md)
