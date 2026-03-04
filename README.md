@@ -16,3 +16,8 @@
 - Appendice
   - [How-To](./chapters/quality-of-life/HOW-TO.md)
   - [Manuali e Documentazione](./chapters/quality-of-life/MANUALS-AND-DOCS.md)
+- Esercizi
+  - [JavaScript](./exercises/javascript/README.md)
+    - [Puntatori a funzione](./exercises/javascript/functions.js)
+    - [Manipolazione del DOM](./exercises/javascript/websites/dom-manipulation/README.md)
+    - [Manipolazione oggetti dalla console del Browser](./exercises/javascript/websites/objects-in-browsers/README.md)
